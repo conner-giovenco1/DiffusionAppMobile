@@ -1,0 +1,6 @@
+module Pods_DiffusionAppMobile {
+  umbrella header "Pods-DiffusionAppMobile-umbrella.h"
+
+  export *
+  module * { export * }
+}
