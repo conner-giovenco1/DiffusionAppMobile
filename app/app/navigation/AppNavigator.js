@@ -2,7 +2,7 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-import AccountNavigator from "./AccountNavigator";
+import AccountNavigator from "./AccountNavigator.js";
 import FeedNavigator from "./FeedNavigator";
 import NewListingButton from "./NewListingButton";
 import routes from "./routes";
@@ -38,7 +38,7 @@ const AppNavigator = () => {
 						<NewListingButton
 							onPress={() =>
 								navigation.navigate(routes.LISTING_EDIT)
-							}
+							                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    }
 						/>
 					),
 					tabBarIcon: ({ color, size }) => (
